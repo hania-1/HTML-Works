@@ -1,0 +1,108 @@
+<!--<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Index</title>
+</head>
+
+<body>
+    <details>
+        <summary>list of languages</summary>
+
+        <p>java</p>
+        <p>c++</p>
+        <p>phyton</p>
+        <p>html</p>
+        <p>c</p>
+
+    </details>
+
+    <img height="300" src="ig1.png"> 
+
+    <a target = "-blank" href="https://www.dexerto.com/anime/jujutsu-kaisen-will-toji-fushiguro-return-again-2375858">
+
+        <img src="ig1.png" width="300"> 
+        <br>
+
+         <b> <h2> image details </h2> </b>
+      </a>
+      
+      <link rel="stylesheet" href="style.css">
+
+</body>
+</html> -->
+
+
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>YOUR BASIC INFORMATION</title>
+  </head>
+
+  <body>
+    <h1>YOUR BASIC INFORMATION</h1>
+
+    <!-- Introduction to Forms -->
+    <p>
+      Forms web pages pe user input lene ke liye use hote hain. Forms mein input fields, checkboxes, radio buttons, submit buttons waghera hote hain.
+    </p>
+
+    <!-- Form Element -->
+    <p>
+      <code>&lt;form&gt;</code> tag se form shuru hota hai. Isme do important attributes hote hain:
+      <ul>
+        <li><code>action</code>: Yeh specify karta hai ke form data kahan send hoga.</li>
+        <li><code>method</code>: Yeh specify karta hai ke form data kaise send hoga (GET ya POST).</li>
+      </ul>
+    </p>
+
+    <form action="/submit" method="post">
+      
+      <!-- Input Elements -->
+      <p>
+        <label for="username">Enter Your Name</label>
+        <input type="text" id="username" name="name" placeholder="Your Name" required />
+      </p>
+
+      <p>
+        <label for="age">Enter Your Age</label>
+        <input type="number" id="age" name="age" placeholder="Your Age" required />
+      </p>
+
+      <!-- Radio Buttons -->
+      <p>
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+      </p>
+
+      <!-- Textarea -->
+      <p>
+        <label for="comment">Enter Your Comment</label>
+        <textarea id="comment" name="comment" rows="4" cols="50" placeholder="Your comments here..."></textarea>
+      </p>
+
+      <!-- Select Box -->
+      <p>
+        <label for="language">Select Your Language</label>
+        <select id="language" name="language" required>
+          <option value="Urdu">URDU</option>
+          <option value="Hindi">HINDI</option>
+          <option value="Chinese">CHINESE</option>
+          <option value="English">ENGLISH</option>
+          <option value="Arabic">ARABIC</option>
+          <option value="Persian">PERSIAN</option>
+        </select>
+      </p>
+
+      <!-- Submit Button -->
+      <p>
+        <input type="submit" value="Submit" />
+      </p>
+    </form>
+  </body>
+</html>
