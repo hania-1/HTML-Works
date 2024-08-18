@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>YOUR BASIC INFORMATION</title>
+  </head>
+
+  <body>
+    <h1> <i> YOUR BASIC INFORMATION </i> </h1>
+
+    <!--your name-->
+
+    <form action="/submit" method= "post">
+    <label for="username" > Enter Your Name </label>
+    <input type = "text" id = "username" name = "name" placeholder = "Your Name." required/>
+ 
+   <!--your age-->
+
+   <label for="age" > Enter Your Age </label>
+   <input type = "number" id = "age" name = "age" placeholder = "Your Age."/>
+
+   
+  <!--your gender-->
+
+
+<div><label Gender: >Your Gender </label>
+    <input type = "radio" id = "male" name = "gender" value = "male" >
+    <label for = "male">Male</label>
+    <input type = "radio" id = "female" name = "gender" value = "female" >
+    <label for = "female">Female</label>
+  </div>
+  
+  
+  <!--your country-->
+
+<div>
+    <label for ="country" > Enter your country</label>
+    <input type ="text" id ="country" name ="country" placeholder ="Your Country" required>
+  </div>
+  
+  <!--your language-->
+  <br>
+<div> 
+
+  <textarea name="comment" rows="4" cols="50">
+    Enter your comment here...
+</textarea>
+
+<label for ="country" > Enter your language </label>
+<select name="fruits">
+  <option value="Pakistani">Urdu</option>
+  <option value="Indian">Hindi</option>
+  <option value="China">Chinese</option>
+  <option value="America">English</option>
+  <option value="Iran">Persian</option>
+  <option value="France">French</option>
+</select>
+
+</div>
+
+<input type="password" name="password" placeholder="Enter your password" pattern="[hania]+" required>
+
+
+
+
+<input type="checkbox" id="subscribe" name="subscribe" value="yes">
+<label for="subscribe">Form submission completed.</label>
+
+
+ 
+<input type = "submit" value = "Submit"/>
+<link rel="stylesheet" href="style.css">
+
+</body>
+</html>

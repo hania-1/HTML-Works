@@ -1,0 +1,14 @@
+body {
+    background-color: rgb(163, 81, 81);
+}
+h1{
+    text-align: center;
+    color: rgb(7, 2, 2);
+    font-size: 30px;
+}
+form{
+    text-align: center;
+    color: rgb(19, 16, 17);
+    font-size: 20px;
+    
+}
